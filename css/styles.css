@@ -353,7 +353,7 @@ tbody tr:hover {
 .form-select:focus,
 .form-textarea:focus {
   outline: 2px solid var(--primary);
-  outline-offset: 2px;
+  outline-offset: none;
 }
 
 .form-help {
@@ -458,9 +458,6 @@ tbody tr:hover {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition:
-    opacity 0.2s ease,
-    visibility 0.2s ease;
 }
 
 .modal-checkbox:checked ~ .modal-overlay {
